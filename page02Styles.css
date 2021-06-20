@@ -1,0 +1,992 @@
+
+body{
+    margin: 0;
+}
+
+
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navs{
+    height: 250px;
+    width: 1080px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+#menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 250px;
+    margin: 0;
+    font-size: 20px;
+    padding-left: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#menus li a{
+    font-weight: 100;
+    color: white;
+}
+
+#menus li a:hover{
+    font-weight: 700;
+    color: #ffed29;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imageBox{
+    width: 550px;
+    height: 550px;
+
+    float: left;
+    margin-right: 30px;
+}
+
+
+.imtext{
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+}
+
+
+.imtexts{
+    position: absolute;
+    top: 230px;
+    left: 70px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+}
+
+
+.textBox{
+    width: 480px;
+    height: 550px;
+
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: -0.7px;
+    text-align: left;
+    color: white;
+}
+
+#text{
+    display: block;
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+.locationT{
+    width: 630px;
+    height: 22px;
+
+    float: left;
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    
+}
+
+#subT{
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-top: -5px;
+}
+
+hr{
+    display: block;
+    margin-top: -35px;
+}
+
+.orbitalT{
+    width: 400px;
+    height: 22px;
+
+    float: left;
+    position: absolute;
+    top: 650px;
+    right: 0px;
+    
+}
+
+.location{
+    width: 630px;
+    height: 200px;
+
+    float: left;
+    position: absolute;
+    top: 700px;
+    left: 0px;
+}
+
+#Img{
+    display: flex;
+    justify-content: center;
+}
+
+.loNumber{
+    position: absolute;
+    top: 10px;
+    left: 280px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.ly{
+    position: absolute;
+    top: 50px;
+    left: 284px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.loNumber2{
+    position: absolute;
+    top: 0px;
+    left: 292px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.ly2{
+    position: absolute;
+    top: 40px;
+    left: 278px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.orbital{
+    width: 400px;
+    height: 200px;
+
+    float: left;
+    position: absolute;
+    top: 700px;
+    right: 0px;
+}
+
+.orText{
+    position: absolute;
+    top: 80px;
+    left: 144px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.sizeT{
+    width: 530px;
+    height: 22px;
+
+    float: left;
+    position: absolute;
+    top: 950px;
+    left: 0px;
+    
+}
+
+.massT{
+    width: 500px;
+    height: 22px;
+
+    float: left;
+    position: absolute;
+    top: 950px;
+    right: 0px;
+    
+}
+
+
+.size{
+    width: 530px;
+    height: 200px;
+
+    float: left;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+}
+
+.vs{
+    position: absolute;
+    top: 65px;
+    left: 250px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.stimes{
+    position: absolute;
+    top: 180px;
+    left: 90px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sone{
+    position: absolute;
+    top: 180px;
+    left: 399px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.vs2{
+    position: absolute;
+    top: 57px;
+    left: 240px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.stimes2{
+    position: absolute;
+    top: 165px;
+    left: 75px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sone2{
+    position: absolute;
+    top: 165px;
+    left: 396px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.mass{
+    width: 500px;
+    height: 200px;
+
+    float: left;
+    position: absolute;
+    top: 1000px;
+    right: 0px;
+}
+
+.mtimes{
+    position: absolute;
+    top: 109px;
+    left: 82px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.mone{
+    position: absolute;
+    top: 110px;
+    left: 380px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.mtimes2{
+    position: absolute;
+    top: 101px;
+    left: 85px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.mone2{
+    position: absolute;
+    top: 127px;
+    left: 380px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+
+#text2{
+    display: block;
+    margin-top: 60px;
+    margin-left: 0px;
+}
+
+.loText2{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+
+
+#text3{
+    display: block;
+    margin-top: 60px;
+    margin-left: 0px;
+}
+
+.loNumber3{
+    position: absolute;
+    top: 10px;
+    left: 292px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.ly3{
+    position: absolute;
+    top: 50px;
+    left: 273px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.mtimes3{
+    position: absolute;
+    top: 107px;
+    left: 85px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.mone3{
+    position: absolute;
+    top: 108px;
+    left: 380px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+#text4{
+    display: block;
+    margin-top: 75px;
+    margin-left: 0px;
+}
+
+.vs4{
+    position: absolute;
+    top: 50px;
+    left: 280px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.stimes4{
+    position: absolute;
+    top: 165px;
+    left: 99px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sone4{
+    position: absolute;
+    top: 165px;
+    left: 415px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.mtimes4{
+    position: absolute;
+    top: 121px;
+    left: 89px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.mone4{
+    position: absolute;
+    top: 99px;
+    left: 380px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.imtexts5{
+    position: absolute;
+    top: 230px;
+    left: 120px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+}
+
+#text5{
+    display: block;
+    margin-top: 108px;
+    margin-left: 0px;
+}
+
+.loNumber5{
+    position: absolute;
+    top: 10px;
+    left: 296px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.ly5{
+    position: absolute;
+    top: 50px;
+    left: 278px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.vs5{
+    position: absolute;
+    top: 68px;
+    left: 267px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.stimes5{
+    position: absolute;
+    top: 180px;
+    left: 95px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sone5{
+    position: absolute;
+    top: 180px;
+    left: 408px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.mtimes5{
+    position: absolute;
+    top: 120px;
+    left: 83px; 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+
+.circle6{
+    height: 140px;
+    width: 1080px;
+}
+
+.rank6{
+    position: absolute;
+    top: 51px;
+    left: 41px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.name6{
+    position: absolute;
+    top: 51px;
+    left: 250px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.esi6{
+    position: absolute;
+    top: 68px;
+    left: 505px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.circle7{
+    height: 190px;
+    width: 1080px;
+}
+
+.rank7{
+    position: absolute;
+    top: 102px;
+    left: 41px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.name7{
+    position: absolute;
+    top: 102px;
+    left: 250px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.esi7{
+    position: absolute;
+    top: 118px;
+    left: 500px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.esi8{
+    position: absolute;
+    top: 118px;
+    left: 436px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.esi9{
+    position: absolute;
+    top: 118px;
+    left: 501px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.rank10{
+    position: absolute;
+    top: 102px;
+    left: 34px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.esi10{
+    position: absolute;
+    top: 118px;
+    left: 383px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.rank11{
+    position: absolute;
+    top: 102px;
+    left: 42px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.esi11{
+    position: absolute;
+    top: 118px;
+    left: 464px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+
+.esi12{
+    position: absolute;
+    top: 118px;
+    left: 504px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.esi13{
+    position: absolute;
+    top: 118px;
+    left: 489px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.rank14{
+    position: absolute;
+    top: 102px;
+    left: 36px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.esi14{
+    position: absolute;
+    top: 118px;
+    left: 499px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.esi16{
+    position: absolute;
+    top: 118px;
+    left: 477px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.esi17{
+    position: absolute;
+    top: 118px;
+    left: 489px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.esi18{
+    position: absolute;
+    top: 118px;
+    left: 505px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.esi19{
+    position: absolute;
+    top: 118px;
+    left: 474px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.rank20{
+    position: absolute;
+    top: 102px;
+    left: 27px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.esi20{
+    position: absolute;
+    top: 118px;
+    left: 474px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+
+
+#first{
+    position: absolute;
+    top: 300px;
+}
+
+
+#second{
+    position: absolute;
+    top: 1700px;
+}
+
+#third{
+    position: absolute;
+    top: 3100px;
+}
+
+#forth{
+    position: absolute;
+    top: 4500px;
+}
+
+#fifth{
+    position: absolute;
+    top: 5900px;
+}
+
+#sixth{
+    position: absolute;
+    top: 7300px;
+}
+
+#sventh{
+    position: absolute;
+    top: 7435px;
+}
+
+#eighth{
+    position: absolute;
+    top: 7620px;
+}
+
+#nineth{
+    position: absolute;
+    top: 7805px;
+}
+
+#tenth{
+    position: absolute;
+    top: 7990px;
+}
+
+#eleventh{
+    position: absolute;
+    top: 8175px;
+}
+
+#twelveth{
+    position: absolute;
+    top: 8360px;
+}
+
+#thirteenth{
+    position: absolute;
+    top: 8545px;
+}
+
+#forteenth{
+    position: absolute;
+    top: 8730px;
+}
+
+#fifteenth{
+    position: absolute;
+    top: 8915px;
+}
+
+#sixteenth{
+    position: absolute;
+    top: 9100px;
+}
+
+#seventeenth{
+    position: absolute;
+    top: 9285px;
+}
+
+#eighteenth{
+    position: absolute;
+    top: 9470px;
+}
+
+#nineteenth{
+    position: absolute;
+    top: 9655px;
+}
+
+#twentyth{
+    position: absolute;
+    top: 9840px;
+}
+
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color:#474747;
+    position: relative;
+    margin-top: 10000px;
+    display: flex;
+    justify-content: center;
+}
+
+#footerContainer{
+    width: 1150px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 300px;
+    height: 250px;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    width: 300px;
+    height: 250px;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
